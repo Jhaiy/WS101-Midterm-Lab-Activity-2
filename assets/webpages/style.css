@@ -1,0 +1,134 @@
+body, header{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Upper Navbar */
+.navbar-title{
+    margin: 0;
+    padding: 0;
+    border: solid;
+    border-color: #A54D51;
+    background: #A54D51;
+    height: 75px;
+}
+
+.navbar-title ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.logo{
+    height: 75px;
+}
+
+.nav-head{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #FEE3EC;
+    text-decoration: none;
+}
+
+span{
+    color: #E6B325;
+}
+
+.nav-head{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    margin-left: 45px;
+}
+
+.navbar-about{
+    padding: 6px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+
+.about-button{
+    padding: 5px;
+    border: solid;
+    border-color: #FEE3EC;
+    border-radius: 25px;
+    width: 130px;
+    background-color: #FEE3EC;
+}
+
+.about-button{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+}
+.about-button:hover{
+    border: solid;
+    border-color: #C47F7A;
+    background-color: #C47F7A;
+    color: white;
+    transition: 200ms;
+}
+
+/* Lower Navbar */
+.lower-navbar{
+    margin: 0;
+    padding: 0;
+    border: solid;
+    border-color: #C47F7A;
+    background: #C47F7A;
+    height: 19px;
+}
+
+.navbar-items{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.navbar-links{
+    margin: 0;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+}
+.navbar-links::before{
+    content:'';
+    display: block;
+    height: 2px;
+    bottom: 0;
+    width: 0%;
+    background-color: white;
+    position: absolute;
+    transition: ease-in-out 200ms;
+}
+.navbar-links:hover::before{
+    width: 100%;
+}
+
+.navbar-contents{
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+}
+
+
+
