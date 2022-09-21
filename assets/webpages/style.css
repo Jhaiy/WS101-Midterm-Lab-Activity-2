@@ -6,6 +6,11 @@ body, header{
 .navbar{
     margin: 0;
     padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
 }
 
 
@@ -14,8 +19,8 @@ body, header{
     margin: 0;
     padding: 0;
     border: solid;
-    border-color: #A54D51;
-    background: #A54D51;
+    border-color: #c87b67;
+    background: #c87b67;
     height: 75px;
 }
 
@@ -86,8 +91,8 @@ span{
     margin: 0;
     padding: 0;
     border: solid;
-    border-color: #C47F7A;
-    background: #C47F7A;
+    border-color: rgb(32, 32, 32);
+    background: rgb(32, 32, 32);
     height: 19px;
 }
 
@@ -131,4 +136,41 @@ span{
 }
 
 
+/* Home */
+.home-introduction{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: 600px;
+    width: 100%;
+}
+.home-introduction{
+    border: solid;
+    border-color: white;
+    background-color: white;
+    height: 800px;
+}
 
+.home-title{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 2px;
+}
+
+.home-para{
+    margin: 30px 260px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+.banner{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    margin-top: 106px;
+}
